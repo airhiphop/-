@@ -1,0 +1,15 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+
+\begin{document}
+    \begin{tikzpicture}
+        \tkzDefPoints{0/0/C, 4/0/D, 1/2/A, 3/2/B}
+        \tkzDrawSegments(A,B B,D C,D C,A)
+        \tkzLabelPoint[left](A){$a$}
+        \tkzLabelPoint[left](C){$c$}
+        \tkzLabelPoint[right](B){$b$}
+        \tkzLabelPoint[right](D){$d$}
+    \end{tikzpicture}
+\end{document}

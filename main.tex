@@ -1,5 +1,27 @@
 \documentclass[cn,chinese,11pt]{elegantbook}
 
+\title{高等代数}
+\subtitle{宋浩版}
+
+\author{wali-robot}
+\institute{B站大学}
+\date{2021}
+
+\definecolor{customcolor}{RGB}{32,178,170}
+\colorlet{coverlinecolor}{customcolor}
+\cover{cover.jpg}
+
+\setcounter{tocdepth}{3}
+
+\usepackage{wrapfig}
+\usepackage{nicematrix}
+
 \begin{document}
-    
+    \maketitle
+    \frontmatter
+    \tableofcontents
+
+    \mainmatter
+    \chapter{行列式}
+        \input{chapter/chapter1.tex}
 \end{document}
